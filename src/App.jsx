@@ -10,8 +10,8 @@ const App = () => {
     <>
       <Nav />
       <Hero />
-      <Profile />
       <About />
+      <Profile />
       {/* <ConditionalAnimation /> */}
       {/* <div className="flex flex-col md:flex-row">
         <div className="flex-2 p-4 bg-[#000211] h-screen">
