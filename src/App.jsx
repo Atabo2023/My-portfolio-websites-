@@ -2,6 +2,7 @@ import React from "react";
 import Nav from "./Nav";
 import Hero from "./Hero";
 import ConditionalAnimation from "./contact";
+import About1 from "./About1";
 import About from "./About";
 import { Profile } from "./Profile";
 
@@ -10,6 +11,7 @@ const App = () => {
     <>
       <Nav />
       <Hero />
+      <About1 />
       <About />
       <Profile />
       {/* <ConditionalAnimation /> */}

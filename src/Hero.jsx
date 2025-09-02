@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import backImg from "../src/Images/backImg.jpg";
 import gif from "../src/Images/gif.mp4";
+import { TypeAnimation } from "react-type-animation";
 // import campuscardImage from "../../assets/images/campuscardImage.webp";
 
 const Hero = () => {
@@ -11,9 +12,19 @@ const Hero = () => {
         <div className="flex-2 flex flex-col p-10 bg-[#000211] h-screen font-rubik">
           {/* <h2 className="text-6xl font-bold text-white">VICTOR.DEV</h2> */}
           <p className="text-4xl pt-10  font-bold text-[#ffbd39]">Hello!</p>
-          <p className="text-white text-4xl font-medium py-8">
-            I'm Victor Onuche
-          </p>
+
+          <div className="text-white text-4xl font-medium py-8">
+            {/* <div className="font-rubik text-5xl font-bold text-white mb-4"> */}
+            <TypeAnimation
+              sequence={["I'm Victor Onuche", 1000, "I'm Victor Onuche", 100]}
+              wrapper="span"
+              speed={50}
+              className="text-4xl font-medium text-neutral-300"
+              repeat={Infinity}
+            />
+          </div>
+          {/* </div> */}
+          {/* I'm Victor Onuche */}
           <p className="text-3xl font-bold text-[#ffbd39]">
             A Frontend Engineer,{" "}
             <span className="text-white font-normal">
@@ -103,7 +114,6 @@ const Hero = () => {
 };
 
 export default Hero;
-
 
 // echo "# My-portfolio-websites-" >> README.md
 // git init
