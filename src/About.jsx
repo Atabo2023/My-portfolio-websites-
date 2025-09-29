@@ -6,8 +6,8 @@ const About = () => {
   return (
     // <>
     <div>
-      <section id="about" class="bio-snippet">
-        <h2 className="flex font-rubik text-justify text- text-4xl pt-6 font-bold justify-center text-amber-600 align-middle underline underline-offset-8">
+      <section id="about" className="bio-snippet">
+        <h2 className="flex font-rubik text-justify text- text-4xl mt-10 font-bold justify-center text-amber-600 align-middle underline underline-offset-8">
           About Me
         </h2>
         <p className="flex justify-center">
@@ -25,16 +25,17 @@ const About = () => {
               <div className="flex-1 p-4 h-screen rounded-xl mt-28">
                 <img
                   // fetchpriority="high"
-                  className="md:w-[72%] w-[40%] h-[22rem] rounded-full mx-auto items-center align-bottom"
+                  className="md:w-[65%] w-[40%] h-[25rem] rounded-full mx-auto transition-transform items-center align-bottom"
                   src={mypics}
                   alt="backImage"
                 />
               </div>
 
               <div className="flex-1 p-2 rounded-xl">
-                <span className="flex justify-center gap-2 font-rubik text-3xl font-semibold pt-10">
-                  More About Me
+                <span className="flex justify-center gap-2 font-rubik text-3xl font-semibold mt-28">
+                  Read More About Me
                 </span>{" "}
+                {/* <Social /> */}
                 <p
                   className="justify-center items-start text-xl mt-4 font-rubik text-centern p-4 font-normal
                text-center place-content-center max-w-3xl"
@@ -49,8 +50,7 @@ const About = () => {
                   I specialize in:
                   <ul>
                     <li>
-                      🛠️ Frontend development with ReactJS, Tailwind CSS, and
-                      Git
+                      🛠️ Frontend Engineer with ReactJS, Tailwind CSS, and Git
                     </li>
                     <li>
                       💻 Remote tech support, help desk systems, and
@@ -60,6 +60,7 @@ const About = () => {
                       ⚡ Exploring how software can power clean energy
                       innovation
                     </li>
+                    {/* <li>⚡ Computer and POS Engineer</li> */}
                   </ul>
                 </p>
               </div>

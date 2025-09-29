@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import backImg from "../src/Images/backImg.jpg";
+import BebPic from "../src/Images/BebPic.jpg";
 import gif from "../src/Images/gif.mp4";
 import { TypeAnimation } from "react-type-animation";
 // import campuscardImage from "../../assets/images/campuscardImage.webp";
@@ -73,7 +74,7 @@ const Hero = () => {
             <img
               fetchpriority="high"
               className="md:w-[35%] w-[25%] h-[22rem] rounded-full mx-auto items-center animate-pulse"
-              src={backImg}
+              src={BebPic}
               alt="backImage"
             />
 

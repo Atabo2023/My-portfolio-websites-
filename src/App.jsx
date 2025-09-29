@@ -1,10 +1,10 @@
 import React from "react";
 import Nav from "./Nav";
 import Hero from "./Hero";
-import ConditionalAnimation from "./contact";
 import About1 from "./About1";
 import About from "./About";
-import { Profile } from "./Profile";
+import Marquee from "react-fast-marquee";
+import Contactpage from "./Contactpage";
 
 const App = () => {
   return (
@@ -13,7 +13,10 @@ const App = () => {
       <Hero />
       <About1 />
       <About />
-      <Profile />
+      {/* <Profile1 />
+      <Profile /> */}
+      <Marquee />
+      <Contactpage />
       {/* <ConditionalAnimation /> */}
       {/* <div className="flex flex-col md:flex-row">
         <div className="flex-2 p-4 bg-[#000211] h-screen">
