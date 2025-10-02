@@ -1,13 +1,12 @@
 import React from "react";
 import { motion } from "framer-motion";
-import mypics from "../src/Images/mypics.jpg";
 import BebPic2 from "../src/Images/BebPic2.jpg";
 
 const About = () => {
   return (
     // <>
     <div>
-      <section className="bio-snippet">
+      <section id="about" className="bio-snippet">
         <h2 className="flex font-rubik text-justify text-4xl mt-10 font-bold justify-center text-amber-600 align-middle underline underline-offset-8">
           About Me
         </h2>

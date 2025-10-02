@@ -38,6 +38,7 @@ const Contactpage = () => {
 
   return (
     <form
+      id="contact"
       onSubmit={sendEmail}
       className="flex gap-12 m-10 w-full bg-black max-w-6xl mx-auto drop-shadow-xl rounded-2xl py-10 px-6"
       // className="flex flex-col gap-4 w-full max-w-md mx-auto bg-white p-6 rounded-xl shadow-md"

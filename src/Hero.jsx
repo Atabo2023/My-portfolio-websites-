@@ -7,7 +7,7 @@ import { TypeAnimation } from "react-type-animation";
 const Hero = () => {
   return (
     <>
-      <div className="flex w-full flex-col md:flex-row">
+      <div className="flex w-full flex-col mt-14 md:flex-row">
         <div className="flex-2 flex flex-col p-10 bg-[#000211] h-screen font-rubik">
           {/* <h2 className="text-6xl font-bold text-white">VICTOR.DEV</h2> */}
           <p className="text-4xl pt-10  font-bold text-[#ffbd39]">Hello!</p>
@@ -45,13 +45,19 @@ const Hero = () => {
             </motion.div>
           </p>
           <div className="flex gap-10">
-            <button className="text-base mt-6 text-white p-2 rounded-md w-4/12 font-rubik hover:bg-purple-500  bg-indigo-600 font-medium">
+            <button
+              href="#contact"
+              className="text-base mt-6 text-white p-2 rounded-md w-4/12 font-rubik hover:bg-purple-500  bg-indigo-600 font-medium"
+            >
               Hire Me
             </button>
 
             <button className="text-base mt-6 text-white p-2 rounded-md w-4/12 font-rubik hover:bg-[#ffbd39]  hover:text-[#000211] bg-indigo-600 font-medium">
               My Work
             </button>
+            <div className="items-center justify-center align-bottom mt-6">
+              <div className="w-10 h-10 border-[10px] border-indigo-600  border-t-[#ffbd39] border-b-white rounded-full animate-spin"></div>
+            </div>
           </div>
         </div>
         {/* <div></div> */}

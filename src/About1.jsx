@@ -5,12 +5,12 @@ import Social from "./Social";
 const About1 = () => {
   return (
     // <>
-    <div className="bg-black bg-cover relative flex flex-col items-center justify-center mt-4 h-screen">
+    <div className="bg-black bg-cover relative flex flex-col items-center justify-center h-screen">
       {/* <div
         className="relative h-screen bg-cover bg-center flex flex-col items-center justify-center mt-4"
         style={{ backgroundImage: `url(${Aboutimg})` }}
       > */}
-      
+
       <div className="absolute inset-0 bg-black bg-opacity-50"></div>
 
       {/* Content */}
