@@ -5,7 +5,7 @@ import BebPic2 from "../src/Images/BebPic2.jpg";
 const About = () => {
   return (
     // <>
-    <div>
+    <div className="mb-8 border-black border-b-4">
       <section id="about" className="bio-snippet">
         <h2 className="flex font-rubik text-justify text-4xl mt-10 font-bold justify-center text-amber-600 align-middle underline underline-offset-8">
           About Me
@@ -21,11 +21,11 @@ const About = () => {
                 More About Me
               </span> */}
 
-            <div className="flex gap-16 mx-12 mb-4">
+            <div className="flex gap-16 mx-12">
               <div className="flex-1 p-4 h-screen rounded-xl mt-28">
                 <img
                   // fetchpriority="high"
-                  className="md:w-[75%] w-[35%] h-[28rem] rounded-full mx-auto transition-transform items-center align-bottom"
+                  className="md:w-[75%] w-[35%] h-[26rem] rounded-full mx-auto transition-transform items-center align-bottom"
                   src={BebPic2}
                   alt="backImage"
                 />
@@ -37,7 +37,7 @@ const About = () => {
                 </span>{" "}
                 {/* <Social /> */}
                 <p
-                  className="justify-center items-start text-lg mt-4 font-rubik text-centern p-4 font-normal
+                  className="justify-center items-start text-lg mt-4 font-rubik text-centern px-2 font-normal
                text-center place-content-center max-w-2xl"
                 >
                   {/* I am a passionate Engineer with specialiation in Frontend and

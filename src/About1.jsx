@@ -6,11 +6,6 @@ const About1 = () => {
   return (
     // <>
     <div className="bg-black bg-cover relative flex flex-col items-center justify-center h-screen">
-      {/* <div
-        className="relative h-screen bg-cover bg-center flex flex-col items-center justify-center mt-4"
-        style={{ backgroundImage: `url(${Aboutimg})` }}
-      > */}
-
       <div className="absolute inset-0 bg-black bg-opacity-50"></div>
 
       {/* Content */}
@@ -18,7 +13,6 @@ const About1 = () => {
         <h1 className="font-rubik text-5xl font-bold text-amber-600 mb-4">
           HELLO, WORLD.
         </h1>
-        {/* <div className="w-full min-h-screen grid bg-neutral-900 place-content-center"> */}
         <div className="font-rubik text-5xl font-bold text-white mb-4">
           <TypeAnimation
             sequence={[
@@ -34,9 +28,6 @@ const About1 = () => {
             className="text-6xl font-bold text-neutral-300"
             repeat={Infinity}
           />
-          {/* <h1 className="font-rubik text-5xl font-bold text-white mb-4"> */}
-          {/* Welcome to My Website */}
-          {/* </h1> */}
         </div>
         <h2 className="text-lg font-rubik text-gray-200 mb-6">
           SOFTWARE ENGINEER || TECHNICAL SUPPORT ENGINEER
@@ -50,20 +41,17 @@ const About1 = () => {
           </a>
         </div>
       </div>
+
+      {/* <div>
+        {" "}
+        <span className="mx-6 text-sm text-white sm:text-base font-medium">
+          🌍 Available for collaborations!
+        </span>
+      </div> */}
+
       <div className="bg-white w-80 p-3 mt-8 align-middle z-0 drop-shadow-xl rounded-xl">
         <Social />
       </div>
-      {/* </div> */}
-      {/* <div
-        className="relative z-10  inset-0 h-screen bg-cover bg-opacity-50 bg-center items-center justify-center mt-6"
-        style={{ backgroundImage: `url(${Aboutimg})` }}
-      />
-      <p className="font-rubik text-4xl text-black font-bold justify-center text-center">
-        Hello, World.
-      </p>
-
-      <div /> */}
-      {/* <div /> */}
     </div>
   );
 };

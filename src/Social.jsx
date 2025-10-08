@@ -31,7 +31,7 @@ export const Social = () => {
           <FaLinkedin />
         </a>
         <a
-          href="https://github.com/"
+          href="https://github.com/Atabo2023"
           target="_blank"
           rel="noopener noreferrer"
           className="text-gray-800 hover:text-black transition-colors duration-300 text-2xl"

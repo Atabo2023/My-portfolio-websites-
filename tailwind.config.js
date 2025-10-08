@@ -8,6 +8,10 @@ export default {
         montserrat: ["Montserrat", "sans-serif"],
       },
     },
+
+    fontFamily: {
+      exo: ['"Exo 2"', "sans-serif"],
+    },
   },
 
   plugins: [],

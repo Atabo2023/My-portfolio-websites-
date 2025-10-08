@@ -1,5 +1,9 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
+import { FaWhatsapp, FaLinkedin, FaGithub } from "react-icons/fa";
+import { Download } from "lucide-react";
+import Onuche_resume from "../src/Images/Onuche_resume.pdf";
+import { MdEmail } from "react-icons/md";
 
 const Contactpage = () => {
   const [loading, setLoading] = useState(false);
@@ -51,10 +55,113 @@ const Contactpage = () => {
           whether is a job opportunity, collaboration, Other offers, Message me,
           I will response ASAP
         </p>
+
+        <div className="flex flex-col justify-left align-middle p-3">
+          <div className="flex gap-4">
+            <FaWhatsapp className="text-sky-500 mt-2 cursor-pointer" />
+            <a
+              href="https://wa.me/+2348187050485"
+              target="_blank"
+              rel="noopener noreferrer"
+              className=" text-sky-500 hover:text-sky-700 transition-colors duration-300 text-xl"
+            >
+              Chat on WhatsApp
+            </a>
+          </div>
+
+          {/* <a
+            href="https://web.whatsapp.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-sky-500 hover:text-sky-700 transition-colors duration-300 text-2xl"
+          >
+            <FaWhatsapp />
+          </a> */}
+          <div className="flex gap-4">
+            <FaLinkedin className="text-blue-700 mt-2 cursor-pointer" />
+            <a
+              href="https://www.linkedin.com/in/onuche-atabo-08a229229/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-700 hover:text-blue-900 transition-colors duration-300 text-xl"
+            >
+              LinkedIn
+            </a>
+          </div>
+
+          {/* <a
+            href="https://www.linkedin.com/in/onuche-atabo-08a229229/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-700 hover:text-blue-900 transition-colors duration-300 text-2xl"
+          >
+            <FaLinkedin />
+          </a> */}
+          <div className="flex gap-4">
+            <FaGithub className=" text-gray-800 mt-1 cursor-pointer" />
+            <a
+              href="https://github.com/in/onuche-atabo-08a229229/"
+              target="_blank"
+              className=" text-white rounded-lg shadow hover:text-gray-900 transition-colors duration-300"
+            >
+              GitHub
+            </a>
+          </div>
+          {/* <a
+            href="https://github.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-800 hover:text-black transition-colors duration-300 text-2xl"
+          >
+            <FaGithub />
+          </a> */}
+
+          <div className="flex gap-4 ">
+            <MdEmail className="text-red-600 mt-1 cursor-pointer" />
+            <a
+              href="mailto:onuchevictoratabo2020@gmail.com"
+              className="text-white rounded-lg shadow hover:text-red-700 transition-colors duration-300"
+            >
+              Gmail
+            </a>
+          </div>
+
+          {/* <a
+            href="mailto:onuchevictoratabo2020@gmail.com"
+            className="text-red-600 hover:text-red-800 transition-colors duration-300 text-2xl"
+          >
+            <MdEmail />
+          </a> */}
+          {/* <a
+            href="mailto:onuchevictoratabo2020@gmail.com"
+            className="text-red-600 hover:text-red-800 transition-colors duration-300 text-2xl"
+          >
+            <MdEmail />
+          </a> */}
+        </div>
+
+        <a
+          href="/Onuche_resume.pdf"
+          download="Onuche_resume.pdf"
+          rel="noopener noreferrer"
+          className="flex items-center gap-2 mt-10 w-40 bg-blue-600 text-white px-2 py-2 rounded-lg shadow-md hover:bg-blue-700 transition-colors duration-300"
+        >
+          <Download className="w-5 h-5" />
+          Download Resume
+        </a>
+
+        {/* <button className="flex flex-col sm:flex-row gap-4 mt-12 justify-center">
+          <a
+            href="#about"
+            className="px-4 py-3 p-4 border-1 font-rubik text-white bg-blue-700 font-normal text-xl rounded-lg shadow hover:bg-white hover:text-black transition-colors duration-300"
+          >
+            Download My CV
+          </a>
+        </button> */}
       </div>
       <div className="flex-1 flex-col bg-white p-8 gap-8 rounded-xl">
         {" "}
-        <h2 className="text-2xl font-bold text-center text-black mb-6">
+        <h2 className="text-2xl font-bold text-center font-rubik text-black mb-6">
           Get In Touch
         </h2>
         {/* <h2 className="text-xl font-bold text-center">Get In Touch</h2> */}
