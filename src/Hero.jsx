@@ -41,29 +41,26 @@ const Hero = () => {
               I build Frontend application with IT support skills. <br></br> I
               ensure the application are build are Responsive, <br></br>{" "}
               seameless, scaleable, users friendly <br></br>and browser
-              compatibility.
+              compatibility. <br></br>
+              <span className="text-lg text-white sm:text-base font-medium">
+                <span className="pr-2">🌍</span> Available for collaborations!
+              </span>
             </motion.div>
           </p>
           <div className="flex gap-10">
-            <button
-              href="#contact"
-              className="text-base mt-6 text-white p-2 rounded-md w-4/12 font-rubik hover:bg-purple-500  bg-indigo-600 font-medium"
-            >
-              Hire Me
-            </button>
+            <a href="#Contactpage">
+              <button className="text-base mt-6 text-white p-2 rounded-md w-32 font-rubik hover:bg-purple-500  bg-indigo-600 font-medium">
+                Hire Me
+              </button>
+            </a>
 
-            <a
-              href="https://github.com/Atabo2023"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <button className="text-base mt-6 text-white p-2 rounded-md w-32 font-rubik hover:bg-[#ffbd39]  hover:text-[#000211] bg-indigo-600 font-medium">
+            <a href="#Contactpage" target="_blank" rel="noopener noreferrer">
+              <button className="text-base mt-6 text-white p-2 rounded-md w-32 font-rubik hover:bg-indigo-500  hover:text-white bg-indigo-600 font-medium">
                 My Work
               </button>
             </a>
-            <div className="items-center justify-center align-bottom mt-6">
-              <div className="w-10 h-10 border-[10px] border-indigo-600  border-t-[#ffbd39] border-b-white rounded-full animate-spin"></div>
-            </div>
+
+            <div className="w-10 h-10 border-[10px] mt-6 border-indigo-600  border-t-[#ffbd39] border-b-white rounded-full animate-spin"></div>
           </div>
         </div>
         {/* <div></div> */}
@@ -107,19 +104,11 @@ const Hero = () => {
             </div>
             {/* <div className="flex justify-between"></div> */}
           </div>
-          {/* <p className="text-4xl text-white">
-            This is the second column content.
-          </p> */}
+          
         </div>
       </div>
 
-      {/* <div className="flex md:flex-row w-full h-screen bg-zinc-500">
-        <div className="flex-1 text-xl text-white font-bold bg-black">Hero</div>
-
-        <div>
-          <div className="flex-1 text-xl font-bold">Hero</div>
-        </div>
-      </div> */}
+     
     </>
   );
 };

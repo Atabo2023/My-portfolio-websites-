@@ -31,48 +31,53 @@ const About = () => {
                 />
               </div>
 
+
               <div className="flex-1 p-2 rounded-xl">
-                <span className="flex justify-center gap-2 font-rubik text-3xl font-semibold mt-16">
+                <span className="flex justify-center gap-2 font-rubik text-3xl font-semibold mt-16 mb-4">
                   Read More About Me
                 </span>{" "}
                 {/* <Social /> */}
-                <p
-                  className="justify-center items-start text-lg mt-4 font-rubik text-centern px-2 font-normal
+                {/* <div></div> */}
+                <div
+                  className="bg-black text-white rounded-2xl  w-fit justify-center items-start text-xl font-rubik px-2
                text-center place-content-center max-w-2xl"
                 >
-                  {/* I am a passionate Engineer with specialiation in Frontend and
+                  <div className="h-5/6 w-fit bg-white px-2 text-black justify-center">
+                    {/* I am a passionate Engineer with specialiation in Frontend and
                   Technical Support Engineer. I'm I know for technical problem
                   solving and passionate about solving real-world problems with
                   modern technology. */}
 
-                  <p>
-                    Hello! I'm Onuche Victor Atabo, a graduate applied chemistry
-                    and currently PGD Computer science student of University of
-                    Abuja with a passion for Frontend Engineer, IT Support
-                    Engineer and artificial intelligence. My journey in tech
-                    combines hardware knowledge with cutting-edge software
-                    expertise.
-                  </p>
-                  <br></br>
-                  <p className="justify-center font-bold text-2xl items-start font-rubik text-center pt-2 place-content-center">
-                    I specialized in
-                  </p>
-                  <p>
-                    As a Frontend engineer, I specialize in Html, CSS,
-                    JavaScript, ReactJS, TailwindCSS and version control
-                    technologies. I build robust, scalable systems that power
-                    modern applications.
-                  </p>
-                  <br></br>
-                  <p>
-                    Beyond technology, I helped young graduates navigate their
-                    ways througgh the part of tech, I'm an entrepreneur managing
-                    businesses in accessories, online visibility through Google
-                    my bussiness. I thrive in collaborative environments and
-                    Exploring how software can power clean energy innovation
-                  </p>
-                  <br></br>
-                </p>
+                    <p>
+                      Hello! I'm Onuche Victor Atabo, a graduate applied
+                      chemistry and currently PGD Computer science student of
+                      University of Abuja with a passion for Frontend Engineer,
+                      IT Support Engineer and artificial intelligence. My
+                      journey in tech combines hardware knowledge with
+                      cutting-edge software expertise.
+                    </p>
+                    <br></br>
+                    <p className="justify-center font-bold text-2xl items-start font-rubik text-center pt-2 place-content-center">
+                      I specialized in
+                    </p>
+                    <p>
+                      As a Frontend engineer, I specialize in Html, CSS,
+                      JavaScript, ReactJS, TailwindCSS and version control
+                      technologies. I build robust, scalable systems that power
+                      modern applications.
+                    </p>
+                    <br></br>
+                    <p>
+                      Beyond technology, I helped young graduates navigate their
+                      ways througgh the part of tech, I'm an entrepreneur
+                      managing businesses in accessories, online visibility
+                      through Google my bussiness. I thrive in collaborative
+                      environments and Exploring how software can power clean
+                      energy innovation.
+                    </p>
+                    <br></br>
+                  </div>
+                </div>
                 {/* <p className="justify-center text-xl items-start font-rubik text-center pt-2 place-content-center">
                   I specialize in:
                   <ul> */}

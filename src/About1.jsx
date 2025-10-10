@@ -16,7 +16,7 @@ const About1 = () => {
         <div className="font-rubik text-5xl font-bold text-white mb-4">
           <TypeAnimation
             sequence={[
-              "I am Victor Onuche",
+              "I'm Victor Onuche",
               1000,
               "A Software Engineer",
               1000,
@@ -35,7 +35,7 @@ const About1 = () => {
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a
             href="#about"
-            className="px-6 py-3 p-6 border-2 text-white font-normal text-3xl rounded-sm shadow hover:bg-white hover:text-black transition"
+            className="px-6 py-3 p-6 border-2 text-white font-normal text-3xl rounded-lg shadow hover:bg-white hover:text-black transition"
           >
             Read More About Me
           </a>
