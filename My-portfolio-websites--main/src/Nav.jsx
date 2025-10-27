@@ -18,10 +18,10 @@ const Nav = () => {
           <a href="#" className="hover:text-gray-400">
             Services
           </a>
-          <a href="#" className="hover:text-gray-400">
+          <a href="#dd" className="hover:text-gray-400">
             Skills
           </a>
-          <a href="#" className="hover:text-gray-400">
+          <a href="#work" className="hover:text-gray-400">
             Projects
           </a>
           <a href="#Contactpage" className="hover:text-gray-400">

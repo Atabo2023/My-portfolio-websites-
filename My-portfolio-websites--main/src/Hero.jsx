@@ -54,7 +54,11 @@ const Hero = () => {
             </button>
           </a>
 
-          <a href="#Contactpage" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://github.com/dashboard"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <button className="text-base mt-6 text-white p-2 rounded-md w-32 font-rubik hover:bg-indigo-500  hover:text-white bg-indigo-600 font-medium">
               My Work
             </button>
@@ -111,11 +115,3 @@ const Hero = () => {
 };
 
 export default Hero;
-
-// echo "# My-portfolio-websites-" >> README.md
-// git init
-// git add README.md
-// git commit -m "first commit"
-// git branch -M main
-// git remote add origin https://github.com/Atabo2023/My-portfolio-websites-.git
-// git push -u origin main

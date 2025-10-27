@@ -85,7 +85,7 @@ const About = () => {
       </section>
 
       <div>
-        <div className="w-full px-8 mt-10 insert-0 flex flex-col font-rubik justify-center overflow-hidden cursor-pointer bg-opacity-5 bg-gradient-to-r from-blue-500 via-white/80 to-transparent">
+        <div className="w-full px-8 mt-10 insert-0 flex flex-col font-rubik justify-center overflow-hidden cursor-pointer bg-opacity-5 bg-gradient-to-r from-blue-700 via-white/80 to-transparent">
           <Marquee
             autoFill
             pauseOnHover // className="mask-l-from-80% mask-r-from-80%"

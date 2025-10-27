@@ -5,6 +5,7 @@ import About1 from "./About1";
 import About from "./About";
 import Marquee from "react-fast-marquee";
 import Contactpage from "./Contactpage";
+import Profile from "./Profile";
 
 const App = () => {
   return (
@@ -13,8 +14,8 @@ const App = () => {
       <Hero />
       <About1 />
       <About />
-      {/* <Profile1 />
-      <Profile /> */}
+      {/* <Profile1 /> */}
+      <Profile />
       <Marquee />
       <Contactpage />
       {/* <ConditionalAnimation /> */}
