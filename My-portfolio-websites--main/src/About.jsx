@@ -85,36 +85,36 @@ const About = () => {
       </section>
 
       <div>
-        <div className="w-full px-8 mt-10 insert-0 flex flex-col font-rubik justify-center overflow-hidden cursor-pointer bg-opacity-5 bg-gradient-to-r from-blue-700 via-white/80 to-transparent">
+        <div className="w-full inset-0 [mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)] mt-10 whitespace-nowrap flex flex-col font-rubik justify-center overflow-hidden cursor-pointer bg-opacity-5 bg-gradient-to-r from-blue-700 via-white/80 to-transparent">
           <Marquee
             autoFill
             pauseOnHover // className="mask-l-from-80% mask-r-from-80%"
           >
-            <div className="bg-[#202020] m-1 rounded-xl flex space-x-5 font-bold text-2xl cursor-pointer p-4 text-blue-500">
+            <div className="bg-[#202020] m-1 rounded-xl flex space-x-5 font-bold sm:text-sm md:text-base lg:text-lg cursor-pointer p-4 text-blue-500">
               💨 Tailwindcss
             </div>
-            <div className="bg-[#202020] m-1 rounded-xl flex space-x-5 font-bold text-2xl cursor-pointer p-4 text-orange-400">
+            <div className="bg-[#202020] m-1 rounded-xl flex space-x-5 font-bold sm:text-sm md:text-base lg:text-lg cursor-pointer p-4 text-orange-400">
               JavaScript
             </div>
-            <div className="bg-[#202020] m-1 rounded-xl flex space-x-5 font-bold text-2xl cursor-pointer p-4 text-green-400">
+            <div className="bg-[#202020] m-1 rounded-xl flex space-x-5 font-bold sm:text-sm md:text-base lg:text-lg cursor-pointer p-4 text-green-400">
               🚀 ReactJS
             </div>
-            <div className="bg-[#202020] m-1 rounded-xl flex space-x-5 font-bold text-2xl cursor-pointer p-4 text-neutral-400">
+            <div className="bg-[#202020] m-1 rounded-xl flex space-x-5 font-bold sm:text-sm md:text-base lg:text-lg cursor-pointer p-4 text-neutral-400">
               HTML
             </div>
-            <div className="bg-[#202020] m-1 rounded-xl flex space-x-5 font-bold text-2xl cursor-pointer p-4 text-sky-400">
+            <div className="bg-[#202020] m-1 rounded-xl flex space-x-5 font-bold sm:text-sm md:text-base lg:text-lg cursor-pointer p-4 text-sky-400">
               CSS
             </div>
-            <div className="bg-[#202020] m-1 rounded-xl flex space-x-5 font-bold text-2xl cursor-pointer p-4 text-blue-600">
+            <div className="bg-[#202020] m-1 rounded-xl flex space-x-5 font-bold sm:text-sm md:text-base lg:text-lg cursor-pointer p-4 text-orange-400">
               Version Control
             </div>
-            <div className="bg-[#202020] m-1 rounded-xl flex space-x-5 font-bold text-2xl cursor-pointer p-4 text-gray-400">
+            <div className="bg-[#202020] m-1 rounded-xl flex space-x-5 font-bold sm:text-sm md:text-base lg:text-lg cursor-pointer p-4 text-gray-400">
               Postman
             </div>
-            <div className="bg-[#202020] m-1 rounded-xl flex space-x-5 font-bold text-2xl cursor-pointer p-4 text-sky-400">
+            <div className="bg-[#202020] m-1 rounded-xl flex space-x-5 font-bold sm:text-sm md:text-base lg:text-lg cursor-pointer p-4 text-sky-400">
               SQL
             </div>
-            <div className="bg-[#202020] m-1 rounded-xl flex space-x-5 font-bold text-2xl cursor-pointer p-4 text-sky-400">
+            <div className="bg-[#202020] m-1 rounded-xl flex space-x-5 font-bold sm:text-sm md:text-base lg:text-lg cursor-pointer p-4 text-sky-400">
               🧠 API Integration
             </div>
           </Marquee>
