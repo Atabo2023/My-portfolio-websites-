@@ -7,12 +7,12 @@ import { TypeAnimation } from "react-type-animation";
 const Hero = () => {
   return (
     // <>
-    <div className="flex w-full flex-col mt-14 md:flex-row">
-      <div className="flex-2 flex flex-col p-10 bg-[#000211] h-screen font-rubik">
+    <div className="md:flex sm:w-1/2 md:w-full sm:flex-col mt-14 md:flex-row">
+      <div className="flex-2 flex flex-col p-10 bg-[#000211] md:h-screen font-rubik">
         {/* <h2 className="text-6xl font-bold text-white">VICTOR.DEV</h2> */}
         <p className="text-4xl pt-10  font-bold text-[#ffbd39]">Hello!</p>
 
-        <div className="text-white text-4xl font-medium py-8">
+        <div className="text-white text-4xl font-medium py-8 sm:display-none md:display-block">
           {/* <div className="font-rubik text-5xl font-bold text-white mb-4"> */}
           <TypeAnimation
             sequence={["I'm Victor Onuche", 1000, "I'm Victor Onuche", 100]}
@@ -30,7 +30,7 @@ const Hero = () => {
             <br></br>and an IT support specialist
           </span>
         </p>
-        <p className="text-white font-rubik text-lg">
+        <p className="text-white font-rubik text-xl md:text-lg">
           <motion.div
             initial={{ y: "-100%" }}
             // end={{ x: "100%" }}
@@ -47,7 +47,7 @@ const Hero = () => {
             </span>
           </motion.div>
         </p>
-        <div className="flex gap-10">
+        <div className="flex flex-col mx-auto md:mx-0 md:flex-row md:gap-10">
           <a href="#Contactpage">
             <button className="text-base mt-6 text-white p-2 rounded-md w-32 font-rubik hover:bg-purple-500  bg-indigo-600 font-medium">
               Hire Me
@@ -64,13 +64,13 @@ const Hero = () => {
             </button>
           </a>
 
-          <div className="w-10 h-10 border-[10px] mt-6 border-indigo-600  border-t-[#ffbd39] border-b-white rounded-full animate-spin"></div>
+          <div className="hidden md:block w-10 h-10 border-[10px] mt-6 border-indigo-600  border-t-[#ffbd39] border-b-white rounded-full animate-spin"></div>
         </div>
       </div>
       {/* <div></div> */}
 
-      <div className="flex-1 p-4 bg-white">
-        <h2 className="flex items-end justify-between text-6xl font-bold text-white mb-10 md:mb-0">
+      <div className=" flex-1 p-4 bg-white ">
+        <h2 className="hidden md:flex items-end justify-between text-6xl font-bold text-white mb-10 md:mb-0">
           ✨✨✨{" "}
           <video
             src={gif}
@@ -84,18 +84,18 @@ const Hero = () => {
         <div className="items-center justify-center">
           <img
             fetchPriority="high"
-            className="md:w-[30%] w-[25%] h-[22rem] rounded-full mx-auto items-center animate-pulse shadow-lg shadow-[#ffbd39] mt-10"
+            className="md:w-[30%] w-[45%] border-r-4 border-orange-500 sm:h-[22rem] md:h-[22rem] rounded-full mx-auto items-center animate-pulse shadow-lg shadow-[#ffbd39] my-10 md:mt-10"
             src={Bebpic1}
             alt="backImage"
           />
 
-          <div className="flex justify-between">
+          <div className="md:flex hidden justify-between">
             <video
               src={gif}
               autoPlay
               loop
               muted
-              className="flex justify-end items-end w-[8%] rounded-2xl"
+              className="md:flex hidden justify-end items-end w-[8%] rounded-2xl"
             />
 
             <video
@@ -103,7 +103,7 @@ const Hero = () => {
               autoPlay
               loop
               muted
-              className="flex justify-end items-end w-[8%] rounded-2xl"
+              className="md:flex justify-end hidden items-end w-[8%] rounded-2xl"
             />
           </div>
           {/* <div className="flex justify-between"></div> */}

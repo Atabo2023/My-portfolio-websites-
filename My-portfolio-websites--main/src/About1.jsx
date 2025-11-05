@@ -5,11 +5,11 @@ import Social from "./Social";
 const About1 = () => {
   return (
     // <>
-    <div className="bg-black bg-cover relative flex flex-col items-center justify-center h-screen">
+    <div className="bg-black bg-cover relative flex flex-col items-center  py-8 md:py-0 justify-center md:h-screen">
       <div className="absolute inset-0 bg-black bg-opacity-50"></div>
 
       {/* Content */}
-      <div className="relative z-10 text-center max-w-2xl px-4">
+      <div className="relative z-10 text-center md:max-w-2xl px-4">
         <h1 className="font-rubik text-5xl font-bold text-amber-600 mb-4">
           HELLO, WORLD.
         </h1>
@@ -32,24 +32,17 @@ const About1 = () => {
         <h2 className="text-lg font-rubik text-gray-200 mb-6">
           SOFTWARE ENGINEER || TECHNICAL SUPPORT ENGINEER
         </h2>
-        <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <a
-            href="#about"
-            className="px-6 py-3 p-6 border-2 text-white font-normal text-3xl rounded-lg shadow hover:bg-white hover:text-black transition"
-          >
-            Read More About Me
-          </a>
-        </div>
+      </div>
+      <div className="flex flex-col sm:flex-row gap-4 justify-center">
+        <a
+          href="#about"
+          className="px-4 w-auto z-10 py-2 md:px-8 md:py-2 border-2 text-white font-normal text-3xl rounded-lg shadow hover:bg-white hover:text-black transition"
+        >
+          Read More About Me
+        </a>
       </div>
 
-      {/* <div>
-        {" "}
-        <span className="mx-6 text-sm text-white sm:text-base font-medium">
-          🌍 Available for collaborations!
-        </span>
-      </div> */}
-
-      <div className="bg-white w-80 p-3 mt-8 align-middle z-0 drop-shadow-xl rounded-xl">
+      <div className="bg-white w-72 md:w-80 p-3 mt-8 align-middle z-0 drop-shadow-xl rounded-xl">
         <Social />
       </div>
     </div>

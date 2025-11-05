@@ -8,7 +8,7 @@ const About = () => {
     // <>
     <div className="mb-8 border-b-black border-b-8 border-orange-500">
       <section id="about" className="bio-snippet">
-        <h2 className="flex font-rubik text-justify text-4xl mt-10 font-bold justify-center text-orange-500 align-middle underline underline-offset-8">
+        <h2 className="flex font-rubik text-justify text-3xl md:text-4xl mt-10 font-bold justify-center text-orange-500 align-middle underline underline-offset-8">
           About Me
         </h2>
         <p className="flex justify-center">
@@ -18,35 +18,29 @@ const About = () => {
             transition={{ duration: 2 }}
             className=" text-black rounded"
           >
-            {/* <span className="flex justify-center gap-2 font-rubik text-3xl font-semibold pt-8">
-                More About Me
-              </span> */}
+        
 
-            <div className="flex gap-16 mx-12 ">
-              <div className="flex-1 p-4 h-screen rounded-xl mt-28">
+            <div className="md:flex gap-16 mx-12 ">
+              <div className="flex-1 md:p-4 h-1/2 md:h-screen rounded-xl md:mt-28">
                 <img
                   // fetchpriority="high"
-                  className="md:w-[75%] border-r-8 border-orange-500 w-[35%] mt-16 h-[26rem] rounded-full mx-auto transition-transform items-center align-bottom"
+                  className="md:w-[75%] hidden md:block border-r-8 border-orange-500 w-[65%] mt-8 md:mt-16 h-[20rem] md:h-[26rem] rounded-full mx-auto transition-transform md:items-center md:align-bottom"
                   src={BebPic2}
                   alt="backImage"
                 />
               </div>
 
               <div className="flex-1 p-2 rounded-xl">
-                <span className="flex justify-center gap-2 font-rubik text-3xl font-semibold mt-16 mb-4">
+                <span className="flex justify-center gap-2 font-rubik text-2xl md:text-3xl font-semibold sm:mt-10 md:mt-16 mb-4">
                   Read More About Me
                 </span>{" "}
-                {/* <Social /> */}
-                {/* <div></div> */}
+              
                 <div
-                  className="bg-black text-white rounded-2xl  w-fit justify-center items-start text-xl font-rubik px-2
+                  className="bg-black text-white rounded-2xl w-fit justify-center items-start text-xl font-rubik md:px-2
                text-center place-content-center max-w-2xl"
                 >
-                  <div className="h-5/6 w-fit bg-white px-2 text-black justify-center">
-                    {/* I am a passionate Engineer with specialiation in Frontend and
-                  Technical Support Engineer. I'm I know for technical problem
-                  solving and passionate about solving real-world problems with
-                  modern technology. */}
+                  <div className="h-5/6 w-fit md:bg-white px-2 sm:text-2xl text-white md:text-black mt-4 md:mt-0 p-2 justify-center">
+                  
 
                     <p>
                       Hello! I'm Onuche Victor Atabo, a graduate applied
