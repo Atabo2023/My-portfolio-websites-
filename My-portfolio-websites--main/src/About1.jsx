@@ -25,7 +25,7 @@ const About1 = () => {
             ]}
             wrapper="span"
             speed={20}
-            className="md:block hidden text-base sm:text-xl md:text-5xl font-bold text-neutral-300"
+            className="md:block text-base sm:text-xl md:text-5xl font-bold text-neutral-300"
             repeat={Infinity}
           />
         </div>

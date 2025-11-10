@@ -44,7 +44,7 @@ const Contactpage = () => {
     <form
       id="Contactpage"
       onSubmit={sendEmail}
-      className="md:flex gap-12 md:m-10 lg:m-10 bg-black md:mx-auto max-w-7xl mx-auto drop-shadow-xl rounded-2xl py-10 px-6"
+      className="md:flex gap-12 overflow-hidden md:m-10 lg:m-10 bg-black md:mx-auto max-w-7xl mx-auto drop-shadow-xl rounded-2xl py-10 px-6"
     >
       <div className="flex-1 p-4 rounded-xl">
         <h2 className="font-montserrat font-bold text-5xl text-[#ffbd39]">
