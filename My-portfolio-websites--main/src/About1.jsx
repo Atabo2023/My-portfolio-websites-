@@ -5,15 +5,15 @@ import Social from "./Social";
 const About1 = () => {
   return (
     // <>
-    <div className="bg-black bg-cover relative flex flex-col items-center  py-8 md:py-0 justify-center md:h-screen">
+    <div className="bg-black bg-cover relative flex flex-col items-center  py-8 md:py-0 justify-center md:w-full md:h-screen">
       <div className="absolute inset-0 bg-black bg-opacity-50"></div>
 
       {/* Content */}
-      <div className="relative z-10 text-center md:max-w-2xl px-4">
-        <h1 className="font-rubik text-5xl font-bold text-amber-600 mb-4">
+      <div className="relative z-10 text-center md:max-w-2xl md:px-4">
+        <h1 className="font-rubik text-3xl md:text-5xl font-bold text-amber-600 mdmmb-4">
           HELLO, WORLD.
         </h1>
-        <div className="font-rubik text-5xl font-bold text-white mb-4">
+        <div className="w-full overflow-hidden font-rubik text-center text-white md:mb-4">
           <TypeAnimation
             sequence={[
               "I'm Victor Onuche",
@@ -25,10 +25,11 @@ const About1 = () => {
             ]}
             wrapper="span"
             speed={20}
-            className="text-6xl font-bold text-neutral-300"
+            className="md:block hidden text-base sm:text-xl md:text-5xl font-bold text-neutral-300"
             repeat={Infinity}
           />
         </div>
+
         <h2 className="text-lg font-rubik text-gray-200 mb-6">
           SOFTWARE ENGINEER || TECHNICAL SUPPORT ENGINEER
         </h2>

@@ -88,7 +88,9 @@ const Stars = () => {
           ✨ Thanks for visiting my portfolio ✨
         </h3> */}
       </div>
-      <p className="text-gray-300 mt-6 text-sm ">We keep shining! ✨✨✨</p>
+      <p className="text-gray-300 mt-6 hidden md:block text-sm ">
+        We keep shining! ✨✨✨
+      </p>
     </div>
   );
 };

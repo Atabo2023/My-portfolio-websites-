@@ -18,7 +18,7 @@ const Hero = () => {
             sequence={["I'm Victor Onuche", 1000, "I'm Victor Onuche", 100]}
             wrapper="span"
             speed={50}
-            className="text-4xl font-medium text-neutral-300"
+            className="text-4xl font-medium overflow-hidden text-neutral-300"
             repeat={Infinity}
           />
         </div>
