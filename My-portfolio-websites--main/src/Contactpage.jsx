@@ -3,6 +3,7 @@ import emailjs from "emailjs-com";
 import { FaWhatsapp, FaLinkedin, FaGithub } from "react-icons/fa";
 import { Download } from "lucide-react";
 import { MdEmail } from "react-icons/md";
+import Data from "./Data";
 
 const Contactpage = () => {
   const [loading, setLoading] = useState(false);
@@ -43,7 +44,7 @@ const Contactpage = () => {
     <form
       id="Contactpage"
       onSubmit={sendEmail}
-      className="md:flex gap-12 md:m-10 w-full bg-black max-w-6xl mx-auto drop-shadow-xl rounded-2xl py-10 px-6"
+      className="md:flex gap-12 md:m-10 lg:m-10 bg-black md:mx-auto max-w-7xl mx-auto drop-shadow-xl rounded-2xl py-10 px-6"
     >
       <div className="flex-1 p-4 rounded-xl">
         <h2 className="font-montserrat font-bold text-5xl text-[#ffbd39]">
@@ -106,12 +107,14 @@ const Contactpage = () => {
           // download="Onuche_resume.pdf"
           target="_blank"
           rel="_noopener noreferrer"
-          className="flex items-center md:mx-0 mx-auto mb-8 md:mb-0 gap-2 mt-10 w-48 bg-blue-600 text-white px-2 py-2 rounded-lg shadow-md hover:bg-blue-700 transition-colors duration-300"
+          className="flex items-center mx-auto md:mx-0 mb-8 md:mb-0 gap-2 mt-10 sm:w-48 bg-blue-600 text-white px-2 py-2 rounded-lg shadow-md hover:bg-blue-700 transition-colors duration-300"
         >
           <Download className="w-5 h-5" />
           Download Resume
         </a>
+        <Data />
       </div>
+      <div></div>
       <div className="flex-1 bg-white p-8 gap-8 rounded-xl">
         {" "}
         <h2 className="text-2xl font-bold text-center font-rubik text-black mb-6">
