@@ -64,7 +64,7 @@ const About = () => {
                     <p>
                       Beyond technology, I helped young graduates navigate their
                       ways througgh the part of tech, I'm an entrepreneur
-                      managing businesses in accessories, online visibility
+                      managing businesses, online visibility
                       through Google my bussiness. I thrive in collaborative
                       environments and Exploring how software can power clean
                       energy innovation.

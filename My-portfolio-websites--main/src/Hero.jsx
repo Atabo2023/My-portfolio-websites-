@@ -18,7 +18,7 @@ const Hero = () => {
             sequence={["I'm Victor Onuche", 1000, "I'm Victor Onuche", 100]}
             wrapper="span"
             speed={50}
-            className="text-4xl font-medium overflow-hidden text-neutral-300"
+            className="md:text-4xl text-3xl font-medium overflow-hidden text-neutral-300"
             repeat={Infinity}
           />
         </div>
@@ -70,14 +70,14 @@ const Hero = () => {
       {/* <div></div> */}
 
       <div className=" flex-1 p-4 bg-white ">
-        <h2 className="hidden md:flex items-end justify-between text-6xl font-bold text-white mb-10 md:mb-0">
+        <h2 className="hidden md:flex items-end justify-between text-4xl font-bold text-white mb-6 md:mb-0">
           ✨✨✨{" "}
           <video
             src={gif}
             autoPlay
             loop
             muted
-            className="flex justify-end items-end w-[8%] rounded-2xl"
+            className="flex justify-end items-end w-[6%] rounded-2xl"
           />
         </h2>
 
@@ -95,7 +95,7 @@ const Hero = () => {
               autoPlay
               loop
               muted
-              className="md:flex hidden justify-end items-end w-[8%] rounded-2xl"
+              className="md:flex hidden justify-end items-end w-[6%] rounded-2xl"
             />
 
             <video
@@ -103,7 +103,7 @@ const Hero = () => {
               autoPlay
               loop
               muted
-              className="md:flex justify-end hidden items-end w-[8%] rounded-2xl"
+              className="md:flex justify-end hidden items-end w-[6%] rounded-2xl"
             />
           </div>
           {/* <div className="flex justify-between"></div> */}

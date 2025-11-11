@@ -47,10 +47,10 @@ const Contactpage = () => {
       className="md:flex gap-12 overflow-hidden md:m-10 lg:m-10 bg-black md:mx-auto max-w-7xl mx-auto drop-shadow-xl rounded-2xl py-10 px-6"
     >
       <div className="flex-1 p-4 rounded-xl">
-        <h2 className="font-montserrat font-bold text-5xl text-[#ffbd39]">
-          Send a Message
+        <h2 className="font-montserrat font-bold text-5xl md:text-6xl text-[#ffbd39]">
+          Send <br></br>a Message
         </h2>
-        <p className="font-normal font-rubik text-white text-xl justify-center align-middle py-10">
+        <p className="font-medium text-left font-rubik text-white text-lg md:text-xl justify-center align-middle py-10">
           whether is a job opportunity, collaboration, Other offers, Message me,
           I will response ASAP
         </p>
@@ -62,7 +62,7 @@ const Contactpage = () => {
               href="https://wa.me/+2348187050485"
               target="_blank"
               rel="noopener noreferrer"
-              className=" text-sky-500 hover:text-sky-700 transition-colors duration-300 text-xl"
+              className=" text-sky-500 hover:text-sky-700 transition-colors cursor cursor-pointer duration-300 text-xl"
             >
               Chat on WhatsApp
             </a>
@@ -107,15 +107,17 @@ const Contactpage = () => {
           // download="Onuche_resume.pdf"
           target="_blank"
           rel="_noopener noreferrer"
-          className="flex items-center mx-auto md:mx-0 mb-8 md:mb-0 gap-2 mt-10 sm:w-48 bg-blue-600 text-white px-2 py-2 rounded-lg shadow-md hover:bg-blue-700 transition-colors duration-300"
+          className="flex items-center text-center mx-auto md:mx-0 mb-8 md:mb-0 gap-2 mt-10 w-44 md:w-48 bg-blue-600 text-white px-2 py-2 rounded-lg shadow-md hover:bg-blue-700 transition-colors duration-300"
         >
           <Download className="w-5 h-5" />
           Download Resume
         </a>
-        <Data />
+        <div className="pointer-events-none">
+          <Data />
+        </div>
       </div>
       <div></div>
-      <div className="flex-1 bg-white p-8 gap-8 rounded-xl">
+      <div className="flex-1 bg-white md:p-8 gap-8 rounded-xl">
         {" "}
         <h2 className="text-2xl font-bold text-center font-rubik text-black mb-6">
           Get In Touch
