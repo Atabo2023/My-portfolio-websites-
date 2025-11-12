@@ -50,12 +50,12 @@ const Contactpage = () => {
         <h2 className="font-montserrat font-bold text-5xl md:text-6xl text-[#ffbd39]">
           Send <br></br>a Message
         </h2>
-        <p className="font-medium text-left font-rubik text-white text-lg md:text-xl justify-center align-middle py-10">
+        <p className="text-left font-rubik text-xl text-white md:text-xl justify-center align-middle py-10">
           whether is a job opportunity, collaboration, Other offers, Message me,
           I will response ASAP
         </p>
 
-        <div className="flex flex-col justify-left align-middle p-3">
+        <div className="flex flex-col justify-left align-middle">
           <div className="flex gap-4">
             <FaWhatsapp className="text-sky-500 mt-2 cursor-pointer" />
             <a

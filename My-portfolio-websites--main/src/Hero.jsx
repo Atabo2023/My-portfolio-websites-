@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     // <>
     <div className="md:flex sm:w-1/2 md:w-full sm:flex-col mt-14 md:flex-row">
-      <div className="flex-2 flex flex-col p-10 bg-[#000211] md:h-screen font-rubik">
+      <div className="flex-2 flex flex-col p-10 bg-[#000211] md:h-screen mb-6 font-rubik">
         {/* <h2 className="text-6xl font-bold text-white">VICTOR.DEV</h2> */}
         <p className="text-4xl pt-10  font-bold text-[#ffbd39]">Hello!</p>
 

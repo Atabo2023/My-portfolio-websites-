@@ -37,7 +37,7 @@ const About1 = () => {
       <div className="flex flex-col sm:flex-row gap-4 justify-center">
         <a
           href="#about"
-          className="px-4 w-auto z-10 py-2 md:px-8 md:py-2 border-2 text-white font-normal text-3xl rounded-lg shadow hover:bg-white hover:text-black transition"
+          className="px-4 w-auto z-10 py-2 md:px-8 md:py-2 border-2 text-white font-normal text-2xl md:text-3xl rounded-lg shadow hover:bg-white hover:text-black transition"
         >
           Read More About Me
         </a>
